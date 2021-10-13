@@ -1,20 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:wght@300&display=swap');
+
+/* Font Formatting */
+
+.esteban {
+  font-family:'Esteban', serif !important;
+}
+
+.montserrat {
+  font-family:'Montserrat', sans-serif !important;
+}
+
+
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
   }
 
-#header {
-    padding-top: 5rem;
-    justify-content: center!important;
-    flex-direction:column;
-}
-
-#home {
-    padding-bottom: 3rem!important;
-    font-size: 3rem!important;
-}
 
 .b-example-divider {
     height: 3rem;
@@ -33,7 +36,6 @@
   }
   
   .contact-header >h2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     padding-left: 8rem;
   }

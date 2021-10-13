@@ -11,147 +11,115 @@
   <link rel="stylesheet" href="../Portfolio.2/assets/style.css">
   <title>Ryan Dupont's Portfolio</title>
 </head>
+<html>
+
+
 
 <!--Header-->
+<section class="d-flex flex-column align-items-center ">
+  <h1 class="pt-5 pb-2 esteban">Hi, I'm Ryan Dupont</h1>
+  <ul class="pt-3 nav d-flex align-items-center">
+    <li class="nav-item">
+      <a class="nav-link montserrat" href="#about-me">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link montserrat" href="#projects">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link montserrat" href="#contact">Contact Information</a>
+    </li>
+  </ul>
+</section>
+
 <main>
-  <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" id="header">
-      <svg class="bi me-2.large" width="40" height="32">
-      </svg>
-      <h1 class="fs-4" id="home">
-        <large>Hi, I'm Ryan Dupont</large>
-      </h1>
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#about-me" class="nav-link ">About Me</a></li>
-        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contact Infromation</a></li>
-      </ul>
-    </header>
-  </div>
 
   <!--Hero-->
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Images of Ryan being Cool" width="700"
-          height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3" id="about-me">An Aspiring Student of All Things Coding</h1>
-        <p class="lead">I'm a Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+  <section>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/images/Picture of Ryan Looking Great.png" class="shadow d-block mx-lg-auto img-fluid"
+            alt="image of Ryan looking great" width="700" height="500" loading="lazy">
         </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Cards of Projects-->
-  <div class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom" id="projects">Here are some of my projects...</h2>
-
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#geo-fill" />
-                </svg>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#calendar3" />
-                </svg>
-              </li>
-            </ul>
+        <div class="col-lg-6">
+          <h1 id='about-me' class="esteban display-5 fw-bold lh-1 mb-3">An Aspiring Student of All Things Coding</h1>
+          <p class="lead montserrat">I'm Ryan Dupont, a lifelong learner and day-dreamer turned full stack developer. I love sitting with problems, breaking them apart, and desperately trying to find the solution till I'm red in the face. It brings me great joy to work with people that care about what they are doing, and work very hard everyday to achieve who they think they can be. I strive to work with people to make beautiful things. When not bunkered down in a project, you can usually find me in the kitchen, reading, fixing something that is broken, or spending time with friends and family.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           </div>
         </div>
-      </div>
-
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-          style="background-image: url('unsplash-photo-2.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#geo-fill" />
-                </svg>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#calendar3" />
-                </svg>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-          style="background-image: url('unsplash-photo-3.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#geo-fill" />
-                </svg>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em">
-                  <use xlink:href="#calendar3" />
-                </svg>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Begins Contact Information Section-->
-  <section id="contacts" class="contact-section">
-    <div class="contact-header">
-      <h2 id="contact">You can find me here...</h2>
-    </div>
-    <div id="link-box">
-      <div class="contact-links">
-        <a href="mailto: rdupont1623@gmail.com" target="blank">E-Mail</a>
-        <a href="https://github.com/rdupont1623" target="blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/ryan-dupont-506349157" target="blank">LinkedIn</a>
       </div>
     </div>
   </section>
-  <!--Ends Contact Information Section-->
-  </body>
 
 
-  <!--Footer-->
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-muted">&copy; 2021 Ryan Dupont</p>
-      <a href="/"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32">
-          <use xlink:href="#bootstrap" />
-        </svg>
-      </a>
-      <ul class="nav col-md-4 justify-content-end">
-      </ul>
-    </footer>
-  </div>
+  <!--Cards of Projects-->
+  <section>
+    <div class="container px-4 py-5 pb-3" id="custom-cards">
+      <h2 id="projects"class="esteban pb-4 border-bottom">Here are some of my projects...</h2>
+      <div>
+        <a href="https://sleepy-island-20575.herokuapp.com/"><img
+            class="card-img-top img-thumbnail px-4 img-fluid data-mdb-attribute"
+            src="./assets/images/Portfolio Image 1.png"
+            alt="image of Crypt-Id application"></a>
+        <h3 class="card-title pt-3 esteban">Crypt-ID</h3>
+        <p class="card-body montserrat pb-3">This is a full-stack application that a team of three others and I made over the course of two weeks. The intent of the project was to make a forum in which members could share information about the sighting of cryptids, or yet to be proven to exist animals. Once that information has been collected, the hope was to calculate any patterns in the sightings, and through that finally catch Bigfoot. Although that hope did not come to fruition, it was a wonderful exercise in working with databases and HTTP routes. After this project I was a life-time fan of node.js, and all of the different ways that silly sounding tool could facilitate amazing things to be made in simple ways - I wish I could say the same thing about handlebars. Working with this team was a real joy, even if we stayed up till 1 AM too many times. You can view the deployed application by clicking the above image. (And yes, I made the logo animation)</p>
+
+      </div>
+    </div>
+    <div class="container px-4 py-5 pb-3" id="custom-cards">
+      <h2 class="esteban pb-4 border-bottom"></h2>
+      <div>
+        <a href="https://jsiraco.github.io/Enlightenment/">
+          <img
+            class="card-img-top img-thumbnail px-4img-fluid data-mdb-attribute"
+            src="./assets/images/Portfolio Image 2.png"
+            alt="image of Enlightenment application"></a>
+        <h3 class="card-title pt-3 esteban">Enlightenment</h3>
+        <p class="card-text montserrat pb-3">This application was my first large project I made with other people. It's a recreational application that allows users to immerse themselves in both poem and art, saving art that they enjoy to be looked at later. To do this we used both a random Poem generator’s API and the Met Museum’s API. As this was my first team coding project, It was a series of real ups and downs. But after toiling with API's and formatting until we knew flexbox like the back of our hands, we all worked together really well and felt proud of the end product.</p>
+      </div>
+    </div>
+    <div class="container px-4 py-5 pb-3" id="custom-cards">
+      <h2 class="esteban pb-4 border-bottom"></h2>
+      <div>
+        <a href="https://github.com/rdupont1623/Team-Profil-Generator.git"><img
+            class="card-img-top img-thumbnail px-4img-fluid data-mdb-attribute"
+            src="./assets/images/Portfolio Image 3.png"
+            alt="image of the Team Profile Generator"></a>
+        <h3 class="card-title pt-3 esteban">Team Member Generator</h3>
+        <p class="card-text montserrat pb-3 ">This application was a lot of fun to build, and was one of the first things I made where I really felt like I knew what I was doing. When the application is initialized it asks the user questions through the terminal, which then generates a HTML document that includes the user’s responses. I loved getting to do mostly back-end work that allowed me to get more comfortable with node.js and utilizing npm packages, it made me really appreciate how much they could do. It dawned on me when making this project that coding is using tools within tools to build more tools; it’s a beautiful never ending cycle. </p>
+      </div>
+    </div>
+    <!--Begins Contact Information Section-->
+    <section id="contacts" class="contact-section">
+      <div class="contact-header">
+        <h2 class="esteban pt-3" id="contact">You can find me here...</h2>
+      </div>
+      <div id="link-box">
+        <div class="contact-links">
+          <a class='montserrat' href="mailto: rdupont1623@gmail.com" target="blank">E-Mail</a>
+          <a class='montserrat' href="https://github.com/rdupont1623" target="blank">GitHub</a>
+          <a class='montserrat' href="https://www.linkedin.com/in/ryan-dupont-506349157" target="blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!--Ends Contact Information Section-->
+    </body>
+
+
+    <!--Footer-->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2021 Ryan Dupont</p>
+        <a href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+        </ul>
+      </footer>
+    </div>
 </main>
+
+</html>
